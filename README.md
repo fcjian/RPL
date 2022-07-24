@@ -1,5 +1,5 @@
 
-# Offline Regional Prompt Learning (RPL) of [PromptDet](https://fcjian.github.io/promptdet)
+# Offline Regional Prompt Learning (RPL) of [PromptDet](https://github.com/fcjian/PromptDet)
 <img src="resources/promptdet_rpl.png" width="500px">
 
 ## Prerequisites
@@ -54,7 +54,7 @@ python tools/promptdet/sample_images.py --source-root data/lvis_val_object_crops
 # align the categories of the val set with the one of the training set
 python tools/promptdet/align_val_with_train.py --train-root lvis_and_laion_data/imagenet/images/train/ --val-root lvis_and_laion_data/imagenet/images/val/
 ```
-[0] *Annotation file of base categories: [lvis_v1_train_seen.json](https://drive.google.com/file/d/1dZQ5ytHgJPv4VgYOyjJerq4adc6GQkkd/view?usp=sharing) and novel category: [lvis_v1_val_seen.json](https://drive.google.com/file/d/1NVCFVRETJxAHwzyq81PQmUch-aYCK8cP/view?usp=sharing) (only for evaluation).* \
+[0] *Annotation file of base categories: [lvis_v1_train_seen.json](https://drive.google.com/file/d/1dZQ5ytHgJPv4VgYOyjJerq4adc6GQkkd/view?usp=sharing) and novel category: [lvis_v1_val_seen.json](https://drive.google.com/file/d/1NVCFVRETJxAHwzyq81PQmUch-aYCK8cP/view?usp=sharing).* \
 \
 \
 After training the prompt vectors, you can source the LAION images and update the training data iteratively:
