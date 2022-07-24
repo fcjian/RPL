@@ -87,7 +87,7 @@ lvis_and_laion_data
 ## Training
 ```
 cd scripts
-sh main.sh imagenet vit_b32_ep6 lvis_and_laion_data 1 600 # the last number shuold be greater than or equal to the maximum number of the training images in a category
+sh main.sh imagenet vit_b32_ep6 lvis_and_laion_data 1 600 # the last number shuold be greater than or equal to the maximum number of the training images of the category
 ```
 For your convenience, we also provide the learned [prompt vectors](promptdet_resources/prompt_learner/lvis/model.pth.tar-6) and the [category embeddings](promptdet_resources/lvis_category_embeddings.pt) from the second iteration.
 

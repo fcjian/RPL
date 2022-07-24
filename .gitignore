@@ -131,4 +131,3 @@ dmypy.json
 # Custom
 output/
 debug.sh
-lvis_and_laion_data
