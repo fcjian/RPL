@@ -77,11 +77,11 @@ python tools/promptdet/sample_image.py --source-root data/sourced_data --target-
 The directory structure should look like:
 ```
 lvis_and_laion_data
-|-- classnames.txt
 |-- imagenet/
-|   |–– images/
-|   |   |–– train/
-|   |   |–– val/
+|   |-- classnames.txt
+|   |-- images/
+|   |   |-- train/
+|   |   |-- val/
 ```
 
 ## Training
