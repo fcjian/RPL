@@ -108,5 +108,3 @@ If you find PromptDet or RPL useful in your research, please consider citing:
     year={2022}
 }
 ```
-
-
