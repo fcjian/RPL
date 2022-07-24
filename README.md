@@ -1,6 +1,6 @@
 
 # Offline Regional Prompt Learning (RPL) of [PromptDet](https://github.com/fcjian/PromptDet)
-<img src="resources/promptdet_rpl.png" width="500px">
+![method overview](resources/rpl.png)
 
 ## Prerequisites
 - Dassl.pytorch
